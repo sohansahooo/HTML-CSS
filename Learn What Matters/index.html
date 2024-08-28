@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="pizza.png">
+    <title>Crash HTML & CSS Understanding</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="headings">
+      <h1>This is a h1 heading</h1>
+      <h2>This is a h2 heading</h2>
+      <h3>This is a h3 heading</h3>
+      <h4>This is a h4 heading</h4>
+      <h5>This is a h5 heading</h5>
+      <h6>This is a h6 heading</h6>
+    </div>
+
+    <div class="paragraph">
+      <p>
+        <pre>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam ducimus
+          ut, facere quod, incidunt sequi aut est, a numquam aliquam magni. Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. 
+          
+          Necessitatibus magnam deserunt quaerat, voluptatem reiciendis consectetur 
+          tenetur mollitia dolorum nostrum obcaecati iste aliquam amet, facilis, 
+          voluptatum omnis sequi laudantium odit illo? Officiis totam laboriosam 
+          saepe laudantium asperiores. 
+          
+          Doloribus, incidunt blanditiis pariatur ipsa, dolore ipsum
+          nobis asperiores repellendus voluptatum dolores sed! Iusto culpa
+          molestias sunt? Quidem.
+        </pre>
+      </p>
+    </div>
+
+    <!-- THIS IS A COMMENT -->
+
+    <div class="quotations">
+      <q
+        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+        nobis necessitatibus omnis sint, doloremque dignissimos. Esse?</q
+      >
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <abbr title="Lorem3">Lorem, ipsum dolor.</abbr> praesentium quisquam
+        harum reiciendis labore, quo fugit.
+      </p>
+
+      <p>
+        Lorem ipsum, dolor <cite>amet consectetur adipisicing</cite> elit.
+        Veniam, illum.
+      </p>
+
+      <bdo dir="rtl"
+        >Written in right to left. Lorem ipsum dolor sit amet consectetur.</bdo
+      >
+    </div>
+
+    <div class="address">
+      <address>
+        Written by John Doe.<br />
+        Visit us at:<br />
+        Example.com<br />
+        Box 564, Disneyland<br />
+        USA
+      </address>
+    </div>
+
+    <!-- HyperLinks -->
+
+    <div class="links">
+      <a href="https://www.wikipedia.org/"
+        >Example of Absolute URL or Foreign URL</a
+      ><br />
+      <a href="style.css">Example of Relative URL or Local URL</a><br />
+
+      <a href="https://www.google.com">
+        <img src="https://www.w3schools.com/html/smiley.gif" />
+      </a>
+      
+      <div class="link-bookmarks">
+        <p><a href="#T10"> Bookmark this page </a></p>
+        <h2 id="T1">Imagine This is a <b>Topic</b></h2>
+        <h2 id="T2">Imagine This is a <i>Topic</i></h2>
+        <h2 id="T3">Imagine This is a <u>Topic</u></h2>
+        <h2 id="T4">Imagine This is a <del>Topic</del></h2>
+        <h2 id="T5">Imagine This is a <big>Topic</big></h2>
+        <h2 id="T6">Imagine This is a <small>Topic</small></h2>
+        <h2 id="T7">Imagine This is a <sub>Topic</sub></h2>
+        <h2 id="T8">Imagine This is a <sup>Topic</sup></h2>
+        <h2 id="T9">Imagine This is a <tt>Topic</tt></h2>
+        <h2 id="T10">Imagine This is a <mark>Topic</mark></h2>
+        <h2 id="T11">Imagine This is a Topic</h2>
+        <h2 id="T12">Imagine This is a Topic</h2>
+      </div>
+    </div>
+
+    <div class="image">
+      <img src="https://images.unsplash.com/photo-1708649290066-5f617003b93f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        usemap="#sea-plants"/>
+
+      <map name="sea-plants">
+        <area shape="rect" coords="89,74,3409,1975" href="#style.css" />
+      </map>
+    </div>
+
+    <div class="bg-img"></div>
+
+    <div class="table">
+      <table>
+        <tr>
+          <th>Sl No.</th>
+          <th>Name</th>
+          <th>PAN</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Sohan</td>
+          <td>NL</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Soh</td>
+          <td>NL</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Ohan</td>
+          <td>NL</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Hn</td>
+          <td>NL</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>So</td>
+          <td>NL</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="form">
+      <form class="signin">
+        <label for="fname">First Name:</label><br />
+        <input type="text" placeholder="first name" /><br />
+        <label for="lname">Last Name:</label><br />
+        <input type="text" placeholder="last name" /><br />
+        <label for="email">Email</label><br />
+        <input type="email" placeholder="valid email" /><br />
+        <label for="password">Password:</label><br />
+        <input type="password" placeholder="at least 8 characters" /><br />
+        <label for="range">Your Range</label><br />
+        <input type="range" /><br />
+        <button type="submit">Submit</button>
+      </form>
+
+      <form>
+        <input type="radio" name="gender" />
+        <label for="male">Male</label><br />
+        <input type="radio" name="gender" />
+        <label for="female">Female</label><br />
+      </form>
+
+      <form>
+        <input type="checkbox"/>
+        <label for="today">Today</label><br />
+        <input type="checkbox"/>
+        <label for="tomorrow">Tommorow</label><br />
+        <input type="checkbox"/>
+        <label for="yesterday">Yesterday</label>
+      </form>
+
+      <form>
+        <label for="f-color">Your Favorite 3 Colors</label><br />
+        <input type="color" /><br />
+        <input type="color" /><br />
+        <input type="color" />
+      </form>
+    </div>
+
+    <div class="list">
+      <ol>
+        <li>hi</li>
+        <li>hello</li>
+        <li>hey</li>
+        <li>ok</li>
+        <li>all right</li>
+        <li>yeh!</li>
+      </ol>
+
+      <ul>
+        <li>oh</li>
+        <li>hmm</li>
+        <li>yes</li>
+        <li>yo</li>
+        <li>yeah</li>
+        <li>okay</li>
+      </ul>
+    </div>
+
+    <div class="media">
+      <video src="https://cdn.pixabay.com/video/2021/10/01/90408-626004752_large.mp4" controls autoplay loop></video>
+    </div>
+
+    <div class="audio">
+      <audio src="titanium.mp3" controls autoplay muted loop></audio>
+    </div>  
+  </body>
+</html>
